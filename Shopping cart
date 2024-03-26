@@ -1,0 +1,34 @@
+import React from 'react';
+
+function ShoppingCart() {
+  return (
+    <div>
+      <h2>Completed</h2>
+      <div>Mcq</div>
+      <div>2 Pants</div>
+      <h2>Shopping Cart</h2>
+      <div>Mcq 2 Points</div>
+      <div>Mcq</div>
+      <div>2 Points</div>
+      <div>+2</div>
+      <div>Mcq</div>
+      <div>2 Points</div>
+      <div>1</div>
+      <div>Mcq 2 Points</div>
+      <div>Apple Juice</div>
+      <div>250ml</div>
+      <div>Grapes Juice</div>
+      <div>250ml</div>
+      <div>Rs.</div>
+      <button>Remove all</button>
+      <div>Rs. 250</div>
+      <button>Save for later</button>
+      <button>Remove</button>
+      <div>Sub-Total</div>
+      <div>2 items</div>
+      <div>Rs. 500</div>
+    </div>
+  );
+}
+
+export default ShoppingCart;
